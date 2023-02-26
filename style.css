@@ -6,11 +6,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body, html{
-    background-color: rgb(31, 31, 31);
-    
+    background: url(imagens/grey_checker_pattern_background_by_ab_cs_center_d73sctt-pre.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center center;
+    text-align: center; 
 }
 div#tabela{
-    text-align: center;
     overflow-x: auto;
 }
 table{
@@ -23,15 +24,15 @@ td,th{
     padding: 15px 13px;
     
 }
+td:hover{
+    background-color: rgba(0, 0, 0, 0.568);
+}
 th,td.vazio{
     border: none;
 }
 
 td.vazio:hover{
-    background-color:  rgb(31, 31, 31);
-}
-td:hover{
-    background-color: black;
+    background-color:  rgba(255, 255, 255, 0);
 }
 sup{
     position: relative;
