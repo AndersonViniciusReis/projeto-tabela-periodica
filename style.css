@@ -38,3 +38,13 @@ sup{
     position: relative;
     left: 20%;
 }
+div.tipos{
+    display: inline-block;
+    margin-top: 20px;
+}
+div > p{
+    color: white;
+    text-align: left;
+    font-size: 1.1em;
+    padding: 10px 10px;
+}
