@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    margin: 0PX;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, html{
+    background-color: rgb(31, 31, 31);
+    
+}
+div#tabela{
+    text-align: center;
+    overflow-x: auto;
+}
+table{
+    color: white;
+    display: inline;
+}
+td,th{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 15px 13px;
+    
+}
+th,td.vazio{
+    border: none;
+}
+
+td.vazio:hover{
+    background-color:  rgb(31, 31, 31);
+}
+td:hover{
+    background-color: black;
+}
