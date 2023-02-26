@@ -22,7 +22,6 @@ table{
     display: inline;
 }
 td,th{
-    border: 1px solid white;
     border-collapse: collapse;
     padding: 11px;
     border-radius: 2px;
@@ -58,7 +57,7 @@ td.actinidios{
     border: 3px solid rgb(246, 142, 255);
 }
 td:hover{
-    background-color: rgba(0, 0, 0, 0.568);
+    background-color: rgba(0, 0, 0, 0.658);
     transform: translate( -3px, -3px);
     transition: transform 0.5s, border 1s;
 }
