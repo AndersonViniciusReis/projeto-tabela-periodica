@@ -27,34 +27,44 @@ td,th{
     border-radius: 2px;
 }
 td.naometais{
-    border: 3px solid rgb(166, 255, 2);
+    border: 2px solid rgb(166, 255, 2);
+    color: rgb(166, 255, 2);
 }
 td.gasesnobres{
-    border: 3px solid rgb(76, 168, 255);
+    border: 2px solid rgb(76, 168, 255);
+    color: rgb(76, 168, 255);
 }
 td.metaisalcalinos{
-    border: 3px solid rgb(255, 196, 0);
+    border: 2px solid rgb(255, 196, 0);
+    color:rgb(255, 196, 0);
 }
 td.mat{
-    border: 3px solid rgb(217, 255, 0);
+    border: 2px solid rgb(217, 255, 0);
+    color:rgb(217, 255, 0) ;
 }
 td.semimetais{
-    border: 3px solid rgb(0, 196, 163);
+    border: 2px solid rgb(0, 196, 163);
+    color: rgb(0, 196, 163);
 }
 td.halogenio{
-    border: 3px solid rgb(97, 237, 255);
+    border: 2px solid rgb(97, 237, 255);
+    color:  rgb(97, 237, 255);
 }
 td.outrosmetais{
-    border: 3px solid rgb(130, 187, 187);
+    border: 2px solid rgb(163, 202, 202);
+    color: rgb(130, 187, 187);
 }
 td.metaisdetransicao{
-    border: 3px solid rgb(247, 155, 155);
+    border: 2px solid rgb(247, 155, 155);
+    color: rgb(247, 155, 155);
 }
 td.lantanideos{
-    border: 3px solid rgb(128, 219, 255);
+    border: 2px solid rgb(128, 219, 255);
+    color: rgb(128, 219, 255);
 }
 td.actinidios{
-    border: 3px solid rgb(246, 142, 255);
+    border: 2px solid rgb(246, 142, 255);
+    color: rgb(246, 142, 255);
 }
 td:hover{
     background-color: rgba(0, 0, 0, 0.658);
@@ -71,6 +81,7 @@ td.vazio:hover{
 sup{
     position: relative;
     left: 20%;
+    color: white;
 }
 div.tipos{
     display: inline-block;
