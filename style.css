@@ -33,3 +33,7 @@ td.vazio:hover{
 td:hover{
     background-color: black;
 }
+sup{
+    position: relative;
+    left: 20%;
+}
